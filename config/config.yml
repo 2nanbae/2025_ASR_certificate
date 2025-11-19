@@ -1,0 +1,14 @@
+# ASR 모델 검증 설정
+
+validation:
+  # 검증 데이터 디렉토리 (오디오 파일들이 있는 폴더)
+  data_dir: "./data/valid"
+  
+  # Manifest 파일 경로
+  manifest: "./data/manifest/valid.json"
+  
+  # 모델 폴더 경로 (토크나이저 포함)
+  model_path: "./model"
+  
+  # 엑셀 결과 파일 저장 디렉토리
+  output_dir: "./data/result"
